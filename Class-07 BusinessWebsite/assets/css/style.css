@@ -1,0 +1,800 @@
+/* 
+  Titu Mollick
+  https://titumallick.com/  
+  Business Website
+*/
+*{
+  margin: 0;
+  padding: 0;
+}
+/* Start Header Part CSS */
+#header{
+  width: 100%;
+  height: 800px;
+  background: rgb(128, 237, 245);
+}
+#header .header_part{
+  width: 100%;
+  height: 100px;
+  background: #FFF;
+  display: flex; justify-content: left; align-items: center;
+}
+#header .header_part .logo{
+  margin-left: 50px;
+}
+#header .header_part .logo img{
+  height: 60px;
+  width: 200px;
+}
+#header .header_part .menu{
+  margin-left: 30px;
+}
+#header .header_part .menu a{
+  margin: 0 20px;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #333331;
+  text-decoration: none;
+}
+#header .header_part .menu a:hover{
+  color: #FC4242; transition: 0.3s;
+}
+#header .header_part .header_icon {
+  display: flex; justify-content: center; align-items: center;
+  margin-left: 30px;
+}
+#header .header_part .header_icon .icon{
+  height: 35px; width: 35px;
+  border: 1px solid #333331;
+  border-radius: 4px;
+  background: #FFF;
+  margin: 0 10px;
+  display: flex; justify-content: center; align-items: center;
+}
+#header .header_part .header_icon .icon:hover{
+  background: #FC4242; transition: 0.3s;
+}
+#header .header_part .header_icon a{
+  text-decoration: none;
+}
+#header .header_part .header_icon a i{
+  font-size: 20px;
+  color: #333331;
+}
+#header .header_part .header_btn{
+  margin-left: 90px;
+  height: 100px; width: 80px; 
+  background: #FC4242;
+  display: flex; justify-content: center; align-items: center;
+}
+#header .header_part .header_btn a{
+  text-decoration: none;
+}
+#header .header_part .header_btn a i{
+  font-size: 20px;
+  color: #FFF;
+}
+/* Start Hero Part CSS */
+#header .hero_part{
+  height: 700px; width: 100%;
+  background-image: url(../img/home_bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+#header .hero_part .hero_overlay{
+  background: rgba(252, 66, 66, .3); 
+  height: 700px;
+}
+#header .hero_part .hero_head{
+  padding-left: 150px;
+}
+#header .hero_part .hero_head h1{
+  font-size: 80px;
+  font-weight: 700;
+  color: #FFF;
+  padding-top: 200px;
+  letter-spacing: 2px;
+}
+#header .hero_part .hero_head h1 span{
+  color: #FC4242;
+}
+#header .hero_part .hero_head p{
+  font-size: 17px;
+  color: #FFF;
+  line-height: 1.5;
+  padding: 15px 300px 15px 0;
+}
+#header .hero_part .hero_head button{
+  border: none;
+  background: none;
+  margin-top: 10px;
+}
+#header .hero_part .hero_head button a{
+  font-size: 17px;
+  font-weight: 600;
+  color: #FFF;
+  text-decoration: none;
+}
+#header .hero_part .hero_head button a:hover{
+  color: #FC4242;
+  transition: 0.3s;
+}
+#header .hero_part .hero_button{
+  position: absolute;
+  right: 50px;
+  bottom: 200px;
+  height: 70px; width: 70px; 
+  border: 1px solid #FC4242;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#header .hero_part .hero_button .hero_btn{
+  height: 60px; width: 60px; 
+  border: 1px solid #FC4242;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#header .hero_part .hero_button .hero_btn button{
+  height: 50px; width: 50px; 
+  background: #FC4242;
+  border: 1px solid #FC4242;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#header .hero_part .hero_button a {
+  text-decoration: none;
+}
+#header .hero_part .hero_button a i{
+  font-size: 17px;
+  font-weight: 600;
+  color: #FFF;
+}
+/* End Header Part CSS */
+/* start Searvices Part CSS */
+#services{
+  height: 480px;
+  width: 100%;
+}
+#services .services_head{
+  height: 150px;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  padding-top: 100px;
+}
+#services .services_head h3{
+  width: 50%;
+  font-size: 45px;
+  font-weight: 700;
+  color: #0A080A;
+  letter-spacing: 2px;
+}
+#services .services_head h3 span{
+  color: #FC4242;
+}
+#services .services_head p{
+  width: 50%;
+  font-size: 17px;
+  color: #0A080A;
+  line-height: 1.5;
+}
+#services .services_part{
+  width: 90%;
+  height: 200px;
+  margin: 0 auto;
+  display: flex;
+}
+#services .services_part .service_img{
+  width: 23%;
+  height: 200px;
+  margin: 0 auto;
+  margin: 0 25px 0 0;
+}
+#services .services_part .service_img img{
+  height: 70px; width: 70px;
+}
+#services .services_part .service_img h5{
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  color: #333331;
+  padding: 15px 0;
+}
+#services .services_part .service_img button{
+  border: none;
+  background: none;
+}
+#services .services_part .service_img button a{
+  text-decoration: none;
+  font-size: 16px;
+  color: #FC4242;
+}
+/* End Searvices Part CSS */
+/* Start About Us Part CSS */
+#about{
+  width: 90%;
+  height: 600px;
+  margin: 0 auto;
+}
+#about .about_part{
+  display: flex;
+}
+#about .about_part .about_img{
+  width: 50%; margin: 0 10px;
+}
+#about .about_part .about_img .img_overlay{
+  background: rgba(252, 66, 66, .4);   
+  height: 550px; border-radius: 15px;
+}
+#about .about_part .about_img img{
+  height: 550px;
+  width: 100%;
+  border-radius: 15px;
+}
+#about .about_part .about_head{
+  width: 50%; padding: 0 25px;
+}
+#about .about_part .about_head{
+  padding-top: 20px;
+}
+#about .about_part .about_head h6{
+  color: #FC4242;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+#about .about_part .about_head h3{
+  font-size: 45px;
+  color: #0A080A;
+  font-weight: 700;
+  letter-spacing: 2px;
+  padding: 20px 0;
+}
+#about .about_part .about_head h3 span{
+  color: #FC4242;
+}
+#about .about_part .about_head p{
+  font-size: 17px;
+  color: #0A080A;
+  line-height: 1.5;
+  padding-bottom: 15px;
+}
+#about .about_part .about_head h5{
+  font-size: 25px;
+  color: #FC4242;
+  font-weight: 700;
+  font-style: italic;
+  letter-spacing: 2px;
+  padding: 20px 0 40px 0;
+}
+#about .about_part .about_head .about_btn{
+  height: 130px; width: 100%;
+  background: #1D242C;
+  border-radius: 15px;
+  display: flex;
+}
+#about .about_part .about_head .about_btn .about_icon{
+  margin: 30px; 
+  height: 60px; width: 60px;  
+  border-radius: 50%;
+  background: #4D5259;
+  display: flex; 
+  justify-content: center; align-items: center;
+}
+#about .about_part .about_head .about_btn .about_icon img{
+  height: 45px; width: 45px;  
+  border-radius: 50%;
+}
+#about .about_part .about_head .about_btn .about_con{
+  padding-top: 35px;
+}
+#about .about_part .about_head .about_btn .about_con h6{
+  color: #FFF;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+#about .about_part .about_head .about_btn .about_con h6 span{
+  color: #FC4242;
+}
+#about .about_part .about_head .about_btn .about_con p{
+  color: #FFF;
+  font-size: 16px; 
+  padding-top: 10px;
+}
+/* End About Us Part CSS */
+/* Start Best Services Part CSS */
+#best{
+  width: 90%; height: 690px;
+  margin: 0 auto;
+}
+#best .best_head{
+  padding: 80px 0;
+  text-align: center;
+}
+#best .best_head h6{
+  color: #FC4242;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+#best .best_head h3{
+  font-size: 45px;
+  color: #0A080A;
+  font-weight: 700;
+  letter-spacing: 2px;
+  padding: 10px 0;
+}
+#best .best_head h3 span{
+  color: #FC4242;
+}
+#best .best_part{
+  width: 100%;
+  height: 400px;
+  display: flex;
+}
+#best .best_part .best_icon{
+  width: 32%;
+  height: 360px;
+  margin: 0 20px;  
+}
+#best .best_part .best_icon img{
+  height: 60px; width: 60px;
+  margin-left: 156px;
+}
+#best .best_part .best_icon h5{
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: #0A080A;
+  padding: 20px 0;
+}
+#best .best_part .best_icon p{
+  text-align: center;
+  font-size: 17px;
+  line-height: 1.5;
+  color: #333331;
+  padding-bottom: 30px;
+}
+#best .best_part .best_icon button{
+  margin-left: 118px;
+  border: none;
+  background: none;
+}
+#best .best_part .best_icon button a{
+  font-size: 16px;
+  color: #FC4242;
+  text-decoration: none;
+}
+#best .best_part .best_icon button:hover a{
+  color: #0A080A;
+  transition: 0.3s;
+}
+/* End Best Services Part CSS */
+/* Start Vision And Mission Part CSS */
+#vision{
+  width: 100%;
+  height: 750px;
+  position: relative;
+}
+#vision .vision_part{
+  width: 94%;
+  height: 650px;
+  background-image: url(../img/home_bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 20px 0 0 20px;
+  position: absolute;
+  right: 0;
+  top: 50px;
+}
+#vision .vision_part .vision_overlay{
+  background: rgba(252, 66, 66, .5); 
+  border-radius: 20px 0 0 20px;
+  height: 650px;  display: flex;
+}
+#vision .vision_part .vision_overlay .vision_blank{
+  width: 50%; 
+}
+#vision .vision_part .vision_overlay .vision_head{
+  width: 50%; 
+}
+#vision .vision_part .vision_overlay .vision_head h3{
+  font-size: 45px;
+  color: #FFF;
+  font-weight: 700;
+  letter-spacing: 2px;
+  padding: 150px 0 15px 0;
+}
+#vision .vision_part .vision_overlay .vision_head p{
+  font-size: 17px;
+  color: #FFF;
+  line-height: 1.5;
+  padding: 10px 100px 15px 0;
+}
+#vision .vision_part .vision_overlay .vision_head button{
+  border: none; background: none; margin-top: 20px;
+}
+#vision .vision_part .vision_overlay .vision_head button a{
+  text-decoration: none;font-size: 18px; color: #FC4242;
+}
+#vision .vision_con{
+  position: absolute;
+  left: 0; 
+  top: 180px; 
+  height: 350px;
+  width: 50%;
+  background: #1D242C;
+  border-radius: 0 20px 20px 0;
+}
+#vision .vision_con .vision_main{
+  padding-left: 80px;
+}
+#vision .vision_con .vision_main .vision_img{
+  display: flex; padding-top: 50px;
+}
+#vision .vision_con .vision_main .vision_img img{
+  height: 100px; width: 100px; border-radius: 0 0 15px 0;
+}
+#vision .vision_con .vision_main p{
+  font-size: 17px;
+  color: #FFF;
+  line-height: 1.5;
+  padding: 15px 0;
+}
+#vision .vision_con .vision_main h6{
+  font-size: 17px;
+  color: #FC4242;
+}
+/* End Vision And Mission Part CSS */
+/* 
+  Titu Mollick
+  https://titumallick.com/  
+  Business Website
+*/
+/* Start Creative Team Member Part CSS */
+#team{
+  width: 100%;
+  height: 900px;
+  position: relative;  
+}
+#team .team_head{
+  width: 90%;
+  height: 150px;
+  margin: 0 auto;
+  display: flex;
+  padding: 60px 0;
+}
+#team .team_head h3{
+  width: 50%;
+  font-size: 45px;
+  font-weight: 700;
+  color: #0A080A;
+  letter-spacing: 2px;
+}
+#team .team_head h3 span{
+  color: #FC4242;
+}
+#team .team_head p{
+  width: 50%;
+  font-size: 17px;
+  color: #0A080A;
+  line-height: 1.5;
+}
+#team .team_part{
+  position: absolute;
+}
+#team .team_con{
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+}
+#team .team_con .team_img{
+  width: 32%;
+  height: 550px;
+  margin: 0 20px;
+}
+#team .team_con .team_img img{
+  width: 100%;
+  height: 450px;
+}
+#team .team_con .team_img .team_name{
+  width: 100%;
+  height: 100px;
+  margin-top: -5px;
+  background: #0B1521;
+  border-radius: 20px;
+}
+#team .team_con .team_img .team_name h6{
+  color: #FFF;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  padding-top: 25px;
+}
+#team .team_con .team_img .team_name p{
+  color: #FFF;
+  text-align: center;
+  font-size: 18px;
+  padding-top: 6px;
+}
+/* End Creative Team Member Part CSS */
+/* Start Projecte Part CSS */
+#projecte{
+  height: 250px;
+  width: 100%;
+  background: #F1BBB5;
+}
+#projecte .project_part{
+  height: 200px;
+  width: 100%;
+  display: flex; padding-top: 25px;
+}
+#projecte .project_part .projecte_head{
+  width: 24%;
+  height: 200px;
+  margin: 0 20px;
+}
+#projecte .project_part .projecte_head h3{
+  text-align: center;
+  font-size: 45px;
+  font-weight: 700;
+  color: #FC4242;
+  letter-spacing: 2px;
+  padding-top: 50px;
+}
+#projecte .project_part .projecte_head p{
+  text-align: center;
+  font-size: 17px;
+  font-weight: 600;
+  color: #0A080A;
+  padding-top: 10px;
+}
+/* End Projecte Part CSS */
+/* End Quetion Part CSS */
+#question{
+  width: 90%;
+  height: 500px;
+  margin: 0 auto;
+  display: flex;
+  padding: 100px 0;
+}
+#question .question_head{
+  width: 50%; height: 500px;
+}
+#question .question_head h3{
+  font-size: 45px;
+  color: #0A080A;
+  font-weight: 700;
+  letter-spacing: 2px;
+  padding: 20px;
+}
+#question .question_head h3 span{
+  color: #FC4242;
+}
+#question .question_head h6{
+  font-size: 18px;
+  color: #333331;
+  padding: 0 0 0 30px;
+}
+#question .question_head p{
+  font-size: 17px;
+  color: #333331;
+  line-height: 1.5;
+  padding: 20px 30px;
+}
+#question .question_head hr{
+  height: 1px; width: 95%; margin: 0 auto;
+  background: #333331;
+}
+#question .question_head h5{
+  font-size: 18px;
+  color: #333331;
+  padding: 15px 0 15px 30px;
+}
+#question .question_head h5 span{
+  padding: 0 0 0 100px;
+}
+#question .question_part{
+  width: 50%; height: 500px;
+  position: relative;
+}
+#question .question_part img{
+  width: 75%; height: 500px;
+  margin: 0px 0 0 100px;
+  border-radius: 20px;
+}
+#question .question_part .img_overlay{
+  position: absolute;
+  right: 120px;
+  top: 110px;
+}
+#question .question_part .img_overlay h2{
+  font-size: 120px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  color: #1D242C;
+  text-align: center;
+}
+#question .question_part .img_overlay h4{
+  font-size: 60px;
+  font-weight: 700;
+  text-align: center;
+  color: #1D242C;
+}
+/* End Quetion Part CSS */
+/* Start Dream It Part CSS */
+#dream{
+  height: 250px; width: 90%;
+  margin: 0 auto;
+  display: flex; justify-content: center; align-items: center;
+}
+#dream .dream_img{
+  height: 200px; width: 25%;
+}
+#dream .dream_img img{
+  height: 75px; width: 75px;
+  margin: 45px 0 0 115px;
+}
+#dream .dream_img h5{
+  text-align: center;
+  padding-top: 10px;
+  font-size: 20px;
+  background: -webkit-linear-gradient(45deg, #FC4242, #000 70%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* End Dream It Part CSS */
+/* Start Latest News Feed Part CSS */
+#latest{
+  height: 700px;
+  width: 90%;
+  margin: 0 auto;
+}
+#latest .latest_head{
+  height: 120px;
+  width: 100%;
+  padding: 30px 0;
+  display: flex;
+}
+#latest .latest_head h3{
+  width: 50%;
+  font-size: 45px;
+  font-weight: 700;
+  color: #0A080A;
+  letter-spacing: 2px;
+}
+#latest .latest_head h3 span{
+  color: #FC4242;
+}
+#latest .latest_head p{
+  width: 50%;
+  font-size: 17px;
+  color: #4D5259;
+  line-height: 1.5;
+}
+#latest .latest_part{
+  width: 100%; height: 500px;
+  display: flex; justify-content: center; align-items: center;
+}
+#latest .latest_part .latest_img{
+  width: 32%; height: 500px;
+  margin: 0 15px;
+}
+#latest .latest_part .latest_img img{
+  width: 100%; height: 300px;
+}
+#latest .latest_part .latest_img .img_overlay{
+  width: 100%; height: 150px;
+  background: #0B1521;
+  margin-top: -5px;
+  border-radius: 0 0 20px 20px;
+}
+#latest .latest_part .latest_img .img_overlay h6{
+  color: #FFF;
+  font-size: 18px;
+  padding: 20px 0 0 20px;
+}
+#latest .latest_part .latest_img .img_overlay p{
+  color: #FFF;
+  font-size: 18px;
+  padding: 20px 0 0 20px;
+}
+/* End Latest News Feed Part CSS */
+/* Start Footer Part CSS */
+#footer{
+  height: 500px; width: 100%;
+  background-image: url(../img/latesr_2.JPG);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#footer .footer_overlay{
+  background: rgba(0, 0, 0, .5); 
+  height: 500px; width: 100%;
+}
+#footer .footer_overlay .footrt_part{
+  display: flex; 
+  width: 90%;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+#footer .footer_overlay .footrt_part .footer_head{
+  width: 24%;
+  margin: 0 15px;
+}
+#footer .footrt_part .footer_head a img{
+  width: 50%; height: 50px;
+}
+#footer .footrt_part .footer_head p{
+  padding: 20px 20px 20px 0;
+  color: #FFF;
+  font-size: 17px;
+  line-height: 1.5;
+}
+#footer .footrt_part .footer_head .footer_icon{
+  display: flex; justify-content: left; align-items: center;
+}
+#footer .footrt_part .footer_head .footer_icon .icon_main a{
+  text-decoration: none;
+}
+#footer .footrt_part .footer_head .footer_icon .icon_main a i{
+  display: flex; justify-content: center; align-items: center;
+  height: 30px; width: 30px; 
+  background: #FFF;
+  color: #0A080A;
+  border-radius: 5px;
+  margin: 0 10px;
+}
+/* Footer 2 */
+#footer .footrt_part .footer_head h5{
+  font-size: 22px;
+  color: #FC4242;
+  text-transform: uppercase;
+  padding: 10px 0 20px;
+}
+#footer .footrt_part .footer_head p{
+  font-size: 17px;
+  color: #FFF;
+  padding: 5px 0;
+}
+/* Footer 3 */
+#footer .footrt_part .footer_head h6{
+  font-size: 15px;
+  font-weight: 600;
+  color: #FC4242;
+}
+#footer .footrt_part .footer_head p{
+  font-size: 17px;
+  color: #FFF;
+  padding: 5px 0;
+}
+/* Start CopyRight Area */
+#footer .footer_overlay .copyright{
+  height: 64px; width: 90%;
+  margin: 0 auto;
+  border-top: 2px solid #FC4242;
+}#footer .footer_overlay .copyright p{
+  color: #FFF;
+  font-size: 17px;
+  text-align: center;
+  padding-top: 20px;
+}
+/* End Footer Part CSS */
+/* 
+  Titu Mollick
+  https://titumallick.com/  
+  Business Website
+*/
